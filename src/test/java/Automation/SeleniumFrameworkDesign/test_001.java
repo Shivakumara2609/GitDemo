@@ -39,6 +39,7 @@ public class test_001 {
 		purchase.AddToCart();
 		
 		System.out.println("Updated the code after git push");
+		System.out.println("Issue fixing");
 		
 		
 		
