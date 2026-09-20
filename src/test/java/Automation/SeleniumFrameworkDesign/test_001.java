@@ -17,6 +17,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.LandingPage;
 import pageObjects.ProductPurchase;
 import reusableComponents.reusableComponents;
+import reusableComponents.reuse;
 
 public class test_001 {
 
@@ -41,12 +42,14 @@ public class test_001 {
 		System.out.println("Updated the code after git push");
 		System.out.println("Issue fixing");
 		
+	}
+	public void inactiveuser() {
+		String WarningMessage="//div[@data-testid='toast-warning-message']";
+		String UserInactiveMessage="User is inactive";
 		
+		System.out.println(WarningMessage);
+		System.out.println(UserInactiveMessage);
 		
-
-        
-       
-        
 	}
 
 }
