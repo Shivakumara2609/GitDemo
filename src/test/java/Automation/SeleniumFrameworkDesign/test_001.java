@@ -38,6 +38,8 @@ public class test_001 {
 		landingpage.Login();
 		purchase.AddToCart();
 		
+		System.out.println("Updated the code after git push");
+		
 		
 		
 
